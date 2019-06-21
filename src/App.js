@@ -16,13 +16,13 @@ class App extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                  <Link to={'/'} className="nav-link">Home</Link>
+                  <Link to={'/'} className="nav-link">Principal</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={'/create'} className="nav-link">Create</Link>
+                  <Link to={'/create'} className="nav-link">Alta</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={'/index'} className="nav-link">Index</Link>
+                  <Link to={'/index'} className="nav-link">Listado</Link>
                 </li>
               </ul>
             </div>
